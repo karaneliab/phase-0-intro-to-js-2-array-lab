@@ -28,12 +28,12 @@ function destructivelyAppendCat(name) {
         let newCatsArrays = prependCat(Arnold);
         
         function removeLastCat(){
-            returncats.slice(0. -1);
+            return cats.slice(0,cats.length -1);
         }
             let NewCatsArray = removeLastCat();
 
             function removeFirstCat(){
-                returncats.slice(2);
+                return cats.slice(1);
             }
             let newCatsArraY = removeFirstCat();
            
